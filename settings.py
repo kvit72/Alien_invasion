@@ -8,4 +8,5 @@ class Settings():
         self.screen_height = 700
         # Назначение цвета фона.
         self.bg_color = (230, 230, 230)
+        self.ship_speed = 1.5
 
