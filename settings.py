@@ -8,7 +8,9 @@ class Settings():
         self.screen_height = 700
         # Назначение цвета фона.
         self.bg_color = (230, 230, 230)
+        # Настройки коробля
         self.ship_speed = 1.5
+        self.ship_limit = 3
         # Параметры пули.
         self.bullet_speed = 3
         self.bullet_width = 3
