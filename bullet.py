@@ -1,6 +1,7 @@
 import pygame
 from pygame.sprite import Sprite
 
+
 class Bullet(Sprite):
     """Класс для управления снарядами, выпущенными кораблем."""
 
@@ -22,6 +23,7 @@ class Bullet(Sprite):
         """Перемещает снаряд вверх по экрану."""
         # Обновление позиции снаряда в вещественном формате.
         self.y -= self.settings.bullet_speed
+
         # бновление позиции прямоугольника
         self.rect.y = self.y
 
