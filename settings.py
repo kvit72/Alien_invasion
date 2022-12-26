@@ -1,4 +1,4 @@
-class Settings():
+class Settings:
     """Класс для хранения всех настроек игры."""
 
     def __init__(self):
